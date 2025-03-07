@@ -1,0 +1,32 @@
+{
+    "name": "xstro",
+    "version": "4.0.0",
+    "description": "Complied Javascript of Xstro",
+    "type": "module",
+    "main": "main.mjs",
+    "scripts": {
+        "start": "pm2 start . --attach --name xstro",
+        "stop": "pm2 stop xstro"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AstroX11/xstro"
+    },
+    "homepage": "https://github.com/AstroX11/xstro#readme",
+    "author": "AstroX11 <danielfx0012@gmail.com>",
+    "dependencies": {
+        "@hapi/boom": "^10.0.1",
+        "baileys": "^6.7.16",
+        "cheerio": "^1.0.0",
+        "dotenv": "^16.4.7",
+        "file-type": "20.4.0",
+        "got": "^14.4.6",
+        "link-preview-js": "^3.0.14",
+        "node-webpmux": "^3.2.0",
+        "pino": "^9.6.0",
+        "pm2": "^5.4.3",
+        "qrcode-terminal": "^0.12.0",
+        "sharp": "^0.33.5"
+    }
+}
